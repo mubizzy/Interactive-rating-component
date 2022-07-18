@@ -8,5 +8,7 @@
   --header-height: 3rem;
 
   /* ========COLORS======== */
-  --first-color: hsl(31, 77%, 52%);
+  
+  --first-color: hsl(25, 97%, 53%)
+  --white-color: hsl(0, 0%, 100%);
 }
