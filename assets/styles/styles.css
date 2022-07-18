@@ -69,7 +69,7 @@ body {
   font-family: var(--font-family);
   font-size: var(--normal-font-size);
   background-color: var(--button-background);
-  color: var(--text-color);
+  /* color: var(--text-color); */
   font-weight: var(--font-medium);
 }
 
@@ -100,4 +100,8 @@ video {
   max-width: 968px;
   margin-left: var(--mb-1);
   margin-right: var(--mb-1);
+}
+
+.submit__img {
+  background-color: var(--Very-Dark-Blue);
 }
