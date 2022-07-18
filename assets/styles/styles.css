@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
 
- {
-  font-family: "Overpass", sans-serif;
-}
+
 
 :root {
   --header-height: 3rem;
@@ -11,4 +9,20 @@
   
   --first-color: hsl(25, 97%, 53%)
   --white-color: hsl(0, 0%, 100%);
+
+   /*======= Font and Typography============= */
+   --font-family: "Overpass", sans-serif;
 }
+
+/*=============== BASE ===============*/
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
