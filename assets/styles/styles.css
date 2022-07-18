@@ -12,6 +12,10 @@
 
    /*======= Font and Typography============= */
    --font-family: "Overpass", sans-serif;
+   --normal-font-size: 0.938rem;
+   --h1-font-size: 2rem;
+   --h2-font-size: 1.25rem;
+   --h3-font-size: 1rem;
 }
 
 /*=============== BASE ===============*/
@@ -25,4 +29,20 @@
 
 html {
     scroll-behavior: smooth;
+  }
+
+h1,
+h2,
+h3 {
+  color: var(--title-color);
+  font-weight: var(--font-semi-bold);
+  font-family: var(--title-font);
+}
+
+body {
+    margin: var(--header-height) 0 0 0;
+    font-family: var(--font-family);
+    font-size: var(--normal-font-size);
+    background-color: var(--button-background);
+    color: var(--button-background);
   }
