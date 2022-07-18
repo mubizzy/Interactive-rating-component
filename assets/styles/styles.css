@@ -85,3 +85,8 @@ video {
 .section {
   padding: 4.5rem 0 2.5rem;
 }
+
+.section__title {
+  font-size: var(--h2-font-size);
+  color: var(--title-color);
+}
