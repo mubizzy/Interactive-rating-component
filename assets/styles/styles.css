@@ -16,6 +16,10 @@
    --h1-font-size: 2rem;
    --h2-font-size: 1.25rem;
    --h3-font-size: 1rem;
+
+   /* ==========FONT WEIGHT========== */
+  --font-medium: 400;
+  --font-semi-bold: 700;
 }
 
 /*=============== BASE ===============*/
@@ -46,3 +50,15 @@ body {
     background-color: var(--button-background);
     color: var(--button-background);
   }
+
+button {
+    cursor: pointer;
+  }
+
+button,
+input {
+  border: none;
+  font-family: var(--font-family);
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-semi-bold);
+}
