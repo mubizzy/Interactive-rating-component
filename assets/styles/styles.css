@@ -10,7 +10,7 @@
   --light-grey: hsl(217, 12%, 63%);
   --medium-grey: hsl(212, 45%, 25%);
   --Dark-Blue: hsl(214, 94%, 13%);
-  --Very-Dark-Blue: hsl(216, 12%, 8%);
+  --Very-Dark-Blue: hsl(216, 73%, 10%);
 
   /*======= Font and Typography============= */
   --font-family: "Overpass", sans-serif;
@@ -157,4 +157,11 @@ ul {
   width: 100%;
   text-transform: uppercase;
   color: var(--text-color);
+}
+.submit {
+  background-color: var(--Very-Dark-Blue);
+}
+
+.btn:hover {
+  background-color: hsl(217, 12%, 63%);
 }
