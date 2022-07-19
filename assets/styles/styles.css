@@ -9,7 +9,7 @@
   --text-color: hsl(0, 0%, 100%);
   --light-grey: hsl(217, 12%, 63%);
   --medium-grey: hsl(212, 45%, 25%);
-  --Dark-Blue: hsl(214, 94%, 13%);
+  --Dark-Blue: hsl(214, 44%, 14%);
   --Very-Dark-Blue: hsl(216, 73%, 10%);
 
   /*======= Font and Typography============= */
@@ -72,8 +72,7 @@ body {
   margin: var(--header-height) 0 0 0;
   font-family: var(--font-family);
   font-size: var(--normal-font-size);
-  background-color: var();
-  /* color: var(--text-color); */
+  background-color: hsl(216, 12%, 8%);
   font-weight: var(--font-medium);
 }
 
@@ -109,20 +108,26 @@ video {
 .svg__img {
   padding: 0.8rem;
   border-radius: 50%;
-  background-color: var(--medium-grey);
+  background-color: hsl(213, 19%, 18%);
   margin-bottom: 1rem;
 }
 
 .submit__container {
-  background-color: var(--Dark-Blue);
+  /* background-color: var(--Dark-Blue); */
   padding: 2rem 1.5rem;
   border-radius: 0.625rem;
   max-width: 400px;
+  background-image: linear-gradient(
+    to bottom,
+    hsl(212, 20%, 10%),
+    hsl(220, 16%, 11%)
+  );
 }
 
 .submit__description {
   margin-bottom: var(--mb-1);
   color: var(--text-color);
+  line-height: 1.8;
 }
 .btn {
   width: 3rem;
@@ -130,7 +135,8 @@ video {
   border-radius: 50%;
   padding-top: 0.3rem;
   transition: 0.3s;
-  background-color: var(--medium-grey);
+  /* background-color: var(--medium-grey); */
+  background-color: hsl(213, 19%, 18%);
   color: var(--text-color);
 }
 
@@ -157,9 +163,6 @@ ul {
   width: 100%;
   text-transform: uppercase;
   color: var(--text-color);
-}
-.submit {
-  background-color: var(--Very-Dark-Blue);
 }
 
 .btn:hover {
