@@ -101,7 +101,3 @@ video {
   margin-left: var(--mb-1);
   margin-right: var(--mb-1);
 }
-
-.submit__img {
-  background-color: var(--Very-Dark-Blue);
-}
