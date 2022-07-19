@@ -131,4 +131,9 @@ ul {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: var(--mb-1-25);
+}
+
+.submit__title {
+  margin-bottom: var(--mb-2);
 }
