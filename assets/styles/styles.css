@@ -116,3 +116,14 @@ video {
 .submit__description {
   margin-bottom: var(--mb-1);
 }
+.btn {
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
