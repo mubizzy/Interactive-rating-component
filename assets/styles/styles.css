@@ -59,7 +59,7 @@ html {
 h1,
 h2,
 h3 {
-  color: var(--text-color);
+  /* color: var(--text-color); */
   font-weight: var(--font-semi-bold);
   font-family: var(--font-family);
 }
