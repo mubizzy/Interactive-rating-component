@@ -56,6 +56,10 @@ html {
   scroll-behavior: smooth;
 }
 
+ul {
+  list-style-type: none;
+}
+
 h1,
 h2,
 h3 {
@@ -68,7 +72,7 @@ body {
   margin: var(--header-height) 0 0 0;
   font-family: var(--font-family);
   font-size: var(--normal-font-size);
-  background-color: var(--Very-Dark-Blue);
+  background-color: var();
   /* color: var(--text-color); */
   font-weight: var(--font-medium);
 }
@@ -103,8 +107,12 @@ video {
 }
 
 .svg__img {
-  background-color: var(--Dark-Blue);
-  padding: 0.5rem;
+  /* background-color: var(--Dark-Blue); */
+
   margin-bottom: var(--mb-0-75);
-  border-radius: 50%;
+  /* border-radius: 50%; */
+}
+
+.submit__description {
+  margin-bottom: var(--mb-1);
 }
