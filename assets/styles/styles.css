@@ -117,8 +117,13 @@ video {
   margin-bottom: var(--mb-1);
 }
 .btn {
-  display: flex;
-  flex-direction: column;
+  display: inline-block;
+  background-color: var(--Dark-Blue);
+  padding: 0.8rem 1.5rem;
+  font-weight: var(--font-semi-bold);
+  transition: 0.3s;
+  border-radius: 50%;
+  width: 100%;
 }
 
 ul {
