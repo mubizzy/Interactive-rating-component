@@ -68,7 +68,7 @@ body {
   margin: var(--header-height) 0 0 0;
   font-family: var(--font-family);
   font-size: var(--normal-font-size);
-  background-color: var(--button-background);
+  background-color: var(--Very-Dark-Blue);
   /* color: var(--text-color); */
   font-weight: var(--font-medium);
 }
@@ -100,4 +100,11 @@ video {
   max-width: 968px;
   margin-left: var(--mb-1);
   margin-right: var(--mb-1);
+}
+
+.svg__img {
+  background-color: var(--Dark-Blue);
+  padding: 0.5rem;
+  margin-bottom: var(--mb-0-75);
+  border-radius: 50%;
 }
