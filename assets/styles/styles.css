@@ -165,3 +165,6 @@ ul {
 .btn:hover {
   background-color: hsl(217, 12%, 63%);
 }
+.btn:focus {
+  background-color: hsl(25, 97%, 53%);
+}
