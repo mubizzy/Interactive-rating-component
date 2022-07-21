@@ -202,3 +202,7 @@ ul {
   justify-content: center;
   margin-bottom: var(--mb-0-75);
 }
+
+.show-menu {
+  visibility: visible;
+}

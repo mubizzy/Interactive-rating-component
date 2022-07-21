@@ -1,4 +1,4 @@
-const mainContainer = document.querySelector(".container");
+const mainContainer = document.querySelector(".submit__container");
 const thanksContainer = document.querySelector(".thank-you__container");
 const submitButton = document.getElementById("submit-rating");
 const rateAgain = document.getElementById("rate-again");
@@ -7,5 +7,5 @@ const actualRating = document.getElementById("rating");
 
 submitButton.addEventListener("click", () => {
   mainContainer.style.display = "none";
-  thanksContainer.classList.remove("hidden");
+  thanksContainer.classList.add("show-menu");
 });
