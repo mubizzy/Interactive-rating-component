@@ -183,6 +183,7 @@ ul {
 
 .thank-you__container {
   text-align: center;
+  visibility: hidden;
 }
 
 .thank-you__container img {
