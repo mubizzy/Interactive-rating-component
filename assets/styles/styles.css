@@ -175,3 +175,10 @@ ul {
 .btn:focus {
   background-color: hsl(25, 97%, 53%);
 }
+
+.thank-you__container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
