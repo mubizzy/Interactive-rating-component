@@ -189,3 +189,15 @@ ul {
   display: block;
   margin: 0 auto 1rem;
 }
+
+.rating__description {
+  display: inline-block;
+  background-color: hsl(213, 19%, 18%);
+  color: hsl(25, 97%, 53%);
+  padding: 0.3rem 1rem 0;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: var(--mb-0-75);
+}
