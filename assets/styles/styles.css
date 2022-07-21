@@ -103,7 +103,7 @@ video {
   max-width: 968px;
   margin-left: var(--mb-1);
   margin-right: var(--mb-1);
-  display: grid;
+  /* display: grid; */
   gap: 2rem;
 }
 
@@ -178,7 +178,7 @@ ul {
 
 .thank-you__container {
   display: flex;
-  text-align: center;
-  justify-content: center;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
