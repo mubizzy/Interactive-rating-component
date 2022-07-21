@@ -103,6 +103,8 @@ video {
   max-width: 968px;
   margin-left: var(--mb-1);
   margin-right: var(--mb-1);
+  display: grid;
+  gap: 2rem;
 }
 
 .svg__img {
@@ -112,7 +114,8 @@ video {
   margin-bottom: 1rem;
 }
 
-.submit__container {
+.submit__container,
+.thank-you__container {
   /* background-color: var(--Dark-Blue); */
   padding: 2rem 1.5rem;
   border-radius: 0.625rem;
@@ -148,7 +151,8 @@ ul {
   margin-bottom: var(--mb-1-25);
 }
 
-.submit__title {
+.submit__title,
+.thank-you__title {
   margin-bottom: var(--mb-1);
   color: var(--text-color);
 }
