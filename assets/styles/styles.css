@@ -74,6 +74,11 @@ body {
   font-size: var(--normal-font-size);
   background-color: hsl(216, 12%, 8%);
   font-weight: var(--font-medium);
+  min-height: 100vh;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
 }
 
 button {
