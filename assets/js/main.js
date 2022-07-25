@@ -8,10 +8,11 @@ const actualRating = document.getElementById("rating");
 submitButton.addEventListener("click", () => {
   mainContainer.style.display = "none";
   thanksContainer.classList.add("show-menu");
-  ratings.forEach((rating) => {
-    rating.addEventListener("click", () => {
-      actualRating.innerHTML = rating.innerHTML;
-    });
+});
+
+ratings.forEach((rating) => {
+  rating.addEventListener("click", () => {
+    actualRating.innerHTML = rating.innerHTML;
   });
 });
 
